@@ -11,6 +11,10 @@ background-size: cover;
   background-position: center center;
 }
 
+a {
+    text-decoration: none;
+}
+
 .background {
     width: 100%;
 }
