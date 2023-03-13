@@ -6,13 +6,27 @@
 
 body {
   background-image: url("https://img.freepik.com/fotos-premium/psicologia-terapia-mental-psicologo-hombre-deprimido-triste-sesion-psicoterapia-consulta-psicologica_265223-20270.jpg?w=2000");
-background-size: cover;
   background-repeat:no-repeat;
   background-position: center center;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
 }
 
 a {
     text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background: rgba(153, 231, 153, 0.881);
+    margin: auto;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    width: 55%;
+    height: 100%;
 }
 
 .background {
@@ -24,36 +38,24 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 30px;
-    font-size: 30px;
+    margin: 0.5rem;
+    font-size: 2rem;
     font-weight: 400;
 }
 
 .pregunta hr{
-    width: 30vw;
+    width: 20rem;
     min-width: none;
     height: 3px;
-    border-radius: 10px;
+    border-radius: 2rem;
     background-color: rgb(69, 169, 83);
     
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    background: rgba(153, 231, 153, 0.881);
-    margin: auto;
-    padding: 25px;
-    border-radius: 30px;
-    width: 55vw;
-    height: 100vh;
 }
 
 .titulo {
     display: flex;
     justify-content: center;
-    margin-top: 25px;
+    margin-top: 1.5rem;
     font-weight: 400;
     color: black    ;
 }
@@ -67,27 +69,27 @@ a {
 .instagram-btn {
     display: flex;
     align-items: center;
-    padding: 15px;
-    margin: 10px;
-    width: 200px;
-    height: 50px;
-    background-color: rgba(231, 131, 186, 0.721);
+    padding: 1rem;
+    margin: 0.5rem;
+    width: 12.5rem;
+    height: 3.12rem;
+    border-radius: 2rem;
     border: none;
-    border-radius: 30px;
     font-size: larger;
     text-transform: capitalize;
+    background-color: rgba(231, 131, 186, 0.721);
 }
 
 .instagram-btn picture {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2px;
-    margin: 10px;
-    width: 40px;
-    height: 40px;
+    padding: auto;
+    margin: 0.7rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 0.8rem;
     background-color: white;
-    border-radius: 10px;
 }
 
 .instagram-btn picture img {
@@ -103,27 +105,27 @@ a {
 .facebook-btn {
     display: flex;
     align-items: center;
-    padding: 15px;
-    margin: 10px;
-    width: 200px;
-    height: 50px;
-    background-color: rgb(128, 128, 217);
+    padding: 1rem;
+    margin: 0.5rem;
+    width: 12.5rem;
+    height: 3.12rem;
+    border-radius: 2rem;
     border: none;
-    border-radius: 30px;
     font-size: larger;
     text-transform: capitalize;
+    background-color: rgb(128, 128, 217);
     }
 
     .facebook-btn picture {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.5px;
-    margin: 10px;
-    width: 40px;
-    height: 40px;
-    background-color: white;
-    border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: auto;
+        margin: 0.7rem;
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 0.8rem;
+        background-color: white;
 }
 
 .facebook-btn picture img {
@@ -139,27 +141,27 @@ a {
 .linkedin-btn {
     display: flex;
     align-items: center;
-    padding: 15px;
-    margin: 10px;
-    width: 200px;
-    height: 50px;
-    background-color: rgb(116, 146, 243);
+    padding: 1rem;
+    margin: 0.5rem;
+    width: 12.5rem;
+    height: 3.12rem;
+    border-radius: 2rem;
     border: none;
-    border-radius: 30px;
     font-size: larger;
     text-transform: capitalize;
+    background-color: rgb(116, 146, 243);
 }
 
 .linkedin-btn picture {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0.5px;
-    margin: 10px;
-    width: 40px;
-    height: 40px;
+    padding: auto;
+    margin: 0.7rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 0.8rem;
     background-color: white;
-    border-radius: 10px;
 }
 
 .linkedin-btn picture img {
@@ -175,8 +177,8 @@ a {
 .identificacion {
     display: flex;
     flex-wrap: wrap;
-    margin: 25px;
-    font-size: 20px;
+    margin: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 500;
 }
 
@@ -188,11 +190,11 @@ a {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    border-radius: 5px;
-    margin-top: 10px;   
-    width: 300px;
-    height: 15px;
-    padding: 10px;
     border: none;
     outline: none;
+    border-radius: 0.7rem;
+    margin-top: 0.8rem;   
+    width: 18.7rem;
+    height: 1rem;
+    padding: 0.8rem;
 }
